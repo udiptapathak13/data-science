@@ -4,9 +4,9 @@
 #include <updef.h>
 #include <stddef.h>
 
-typedef word hash_t;
+typedef word_t hash_t;
 
 hash_t hash(void *, size_t);
-hash_t hashcf(void *, size_t, byte (*)(byte));
+hash_t hashcf(void *, size_t, byte_t (*)(byte_t));
 
 #endif
